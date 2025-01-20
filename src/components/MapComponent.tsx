@@ -43,7 +43,7 @@ const MapComponent: React.FC = () => {
   useEffect(() => {
     const raster = new TileLayer({
       source: new XYZ({
-        url: "https://api.maptiler.com/maps/satellite/{z}/{x}/{y}.jpg?key=get_your_own_D6rA4zTHduk6KOKTXzGB",
+        url: "https://api.maptiler.com/maps/satellite/{z}/{x}/{y}.jpg?key=rktwpfiac0OMeVcXFGMC",
         maxZoom: 20,
       }),
     });
